@@ -1,0 +1,8 @@
+# 发布产物，不纳入 git（与源分离，单独分发）
+dist/
+*.zip
+
+# 运行/依赖产物
+node_modules/
+__pycache__/
+.DS_Store
